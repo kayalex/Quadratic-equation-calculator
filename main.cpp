@@ -1,7 +1,13 @@
 #include <iostream>
 
+int product(int num1, int num2){
+    return num1 * num2;
+}
+
+
 int main(){
-    std::cout << "Hellos world" << std::endl << std::endl;
-    std::cout << "number2";
+    int firstNumber {3};
+    float secondNumber {7};
+    std::cout << product(firstNumber, secondNumber);
     return 0;
 }
