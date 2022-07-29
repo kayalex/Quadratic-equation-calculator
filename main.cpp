@@ -19,6 +19,11 @@ int main(){
     std::cin >> c;
     float root = std::sqrt(((b*b)-(4*a*c)));
 
+    if(c==0 || b==0){
+        std::cout <<"The values of c or b must not be zero.";
+        return;
+    }
+
     x1 = (-b + root)/(2*a);
     x2 = (-b - root)/(2*a);
 
